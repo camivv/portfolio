@@ -1,0 +1,50 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: rgb(36, 32, 37);
+    text-align: center;
+}
+/*Estilo de la foto de perfil (media para el mediaqueri*/
+@media (min-width: 576px){
+      #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 20%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 500px;
+      }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 20%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top: 550px;
+      }
+}
+/*etiqueta nombre*/
+#nombre{
+    
+    margin-top: 30%;
+    color: wheat;
+    font-family: 'Lucida Sans'; 
+    
+}
+
+h2{
+    color: wheat;
+    display: inline;
+    font-style:oblique;
+    font-family:Courier New; 
+}
+p{
+   color: white;
+   font: 1em sans-serif;
+   font-size:large;
+   font-style:oblique;
+   font-family:Courier New; 
+}
